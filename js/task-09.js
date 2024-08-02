@@ -10,6 +10,4 @@ function getRandomHexColor() {
 }
 
 const btn = document.querySelector(".change-color");
-
-
 btn.addEventListener("click", getRandomHexColor);
